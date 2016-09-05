@@ -2,20 +2,43 @@
 
 [![NPM version](http://img.shields.io/npm/v/weifund-util.svg)](https://www.npmjs.org/package/weifund-util) [![Build status](https://ci.appveyor.com/api/projects/status/wwajr0886e00g8je/branch/master?svg=true)](https://ci.appveyor.com/project/weifund/weifund-util/branch/master) [![Coverage Status](https://coveralls.io/repos/github/weifund/weifund-util/badge.svg?branch=master)](https://coveralls.io/github/weifund/weifund-util?branch=master) [![NPM Downloads](https://img.shields.io/npm/dm/weifund-util.svg)](https://www.npmjs.org/package/weifund-util)
 
-The weifund-util repo for babel code modules. Just install and run "start" to begin repo setup.
+A utility methods for the WeiFund client and library. Note, still in heavy development.
 
 ## Install
 
 ```
-git clone http://github.com/weifund/default
-cd default
-npm install
-npm start
+npm install --save weifund-util
 ```
 
 ## About
 
-Some about description for this repo.
+WeiFund uses a small set of methods to handle its campaign and registry data. There are many small utility methods that are needed to make these methods function. This library contains those methods.
+
+## Usage
+
+```
+const utils = require('weifund-utils');
+
+console.log(utils);
+
+/* results in:
+{
+  isBigNumber: isBigNumber,
+  etherScanAddressUrl: etherScanAddressUrl,
+  etherScanTxHashUrl: etherScanTxHashUrl,
+  parseCampaignRegistryData: parseCampaignRegistryData,
+  buildInputsArray: buildInputsArray,
+  oneDay: oneDay,
+  parseSolidityMethodInterface: parseSolidityMethodInterface,
+  emptyWeb3Address: emptyWeb3Address,
+  parseMethodABIObject: parseMethodABIObject,
+  capitalizeFirstLetter: capitalizeFirstLetter,
+  filterXSSObject: filterXSSObject,
+  nameContainsIDProperties: nameContainsIDProperties,
+  parseSolidityMethodName: parseSolidityMethodName,
+};
+*/
+```
 
 ## Contributing
 
