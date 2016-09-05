@@ -39,7 +39,10 @@
     "weifund"
   ],
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "bignumber.js": "^2.4.0",
+    "xss": "^0.2.13"
+  },
   "devDependencies": {
     "browserify": "^13.1.0",
     "chai": "^3.5.0",
@@ -84,6 +87,7 @@
         2,
         "always-multiline"
       ],
+      "object-shorthand": 0,
       "indent": [
         2,
         2,
