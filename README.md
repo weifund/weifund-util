@@ -17,7 +17,7 @@ WeiFund uses a small set of methods to handle its campaign and registry data. Th
 ## Usage
 
 ```
-const utils = require('weifund-utils');
+const utils = require('weifund-util');
 
 console.log(utils);
 

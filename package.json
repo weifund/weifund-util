@@ -1,5 +1,5 @@
 {
-  "name": "default",
+  "name": "weifund-util",
   "version": "0.0.1",
   "description": "A default WeiFund code package for node modules (no babel)",
   "scripts": {
