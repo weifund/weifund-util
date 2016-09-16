@@ -118,5 +118,5 @@ included in the project:
 Read more here:
 http://www.catb.org/esr/writings/taoup/html/ch01s06.html
 
-**IMPORTANT**: By submitting a patch, you agree to allow the project
-owners to license your work under the terms of the [MIT License](LICENSE.txt).
+**IMPORTANT**: By submitting a patch, you agree to allow the project's contribution
+license agreement. http://weifund.readthedocs.io/en/latest/policy/policies/#contribution-license-agreement
