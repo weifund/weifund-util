@@ -1,7 +1,7 @@
 {
   "name": "weifund-util",
-  "version": "0.0.1",
-  "description": "A default WeiFund code package for node modules (no babel)",
+  "version": "0.1.1",
+  "description": "A Weifnd utility lib.",
   "scripts": {
     "start": "node ./scripts/setuprepository.js",
     "npmcheckversion": "node ./scripts/npmcheckversion.js",

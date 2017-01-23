@@ -53,14 +53,22 @@ const oneDay = 24 * 60 * 60 * 1000;
 // just an empty addr
 const emptyWeb3Address = '0x0000000000000000000000000000000000000000';
 
+function handleNetwork(selectedNetwork) {
+  if (selectedNetwork === 'mainnet') {
+    return '';
+  }
+
+  return `${selectedNetwork}.`;
+}
+
 // provide etherscan link
 const etherScanAddressUrl = function (address, selectedNetwork) {
-  return `http://${`${selectedNetwork}.` || ''}etherscan.io/address/${address}`;
+  return `https://${handleNetwork(selectedNetwork)}etherscan.io/address/${address}`;
 };
 
 // provide etherscan link
 const etherScanTxHashUrl = function (txHash, selectedNetwork) {
-  return `http://${`${selectedNetwork}.` || ''}etherscan.io/tx/${txHash}`;
+  return `https://${handleNetwork(selectedNetwork)}etherscan.io/tx/${txHash}`;
 };
 
 // parse raw campaign data into an object
