@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 // requires
 const xss = require('xss');
 const BigNumber = require('bignumber.js');

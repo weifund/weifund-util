@@ -1,6 +1,6 @@
 {
   "name": "weifund-util",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A Weifnd utility lib.",
   "scripts": {
     "start": "node ./scripts/setuprepository.js",
@@ -35,13 +35,13 @@
     "!**/__tests__"
   ],
   "keywords": [
-    "default",
+    "util",
     "weifund"
   ],
   "license": "MIT",
   "dependencies": {
-    "bignumber.js": "^2.4.0",
-    "xss": "^0.2.13"
+    "bignumber.js": "2.4.0",
+    "xss": "0.2.13"
   },
   "devDependencies": {
     "browserify": "^13.1.0",
